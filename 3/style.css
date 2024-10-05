@@ -1,25 +1,19 @@
 body {
-  margin: 0;
   font-family: 'Times New Roman', Times, serif;
 }
 
 .content {
   max-width: 960px;
-  margin: auto;
-  padding: 40px;
 }
 
 .form {
   max-width: 960px;
-  margin: auto;
-  padding: 50px;
 }
 
 /*  шапка */
 .header {
   background-color: #222222;
   color: #ffffff;
-  padding: 20px 20px;
 }
 
 .head {
@@ -30,7 +24,6 @@ body {
 
 .header-content {
   max-width: 960px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
@@ -39,21 +32,15 @@ main {
   display: flex;
   width: 100%;
   flex-direction: column-reverse;
-
 }
 
 .main-menu ul {
   align-items: center;
   flex-direction: column;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: flex;
 }
 
-.main-menu li {
-  margin-left: 15px;
-}
 
 .main-menu a {
   font-size: 30px;
@@ -87,9 +74,7 @@ main {
 
 .logo img {
   height: 40px;
-  margin-left: 10px;
   float: left;
-  margin: 0;
   position: absolute;
 }
 
@@ -102,7 +87,6 @@ main {
 
 .data-table th,
 .data-table td {
-  padding: 10px;
   text-align: left;
   border: solid 1px #222222;
 }
@@ -120,20 +104,18 @@ main {
 .footer {
   background-color: #222222;
   color: #fff;
-  padding: 20px 0;
   text-align: center;
 }
 
 .footer-content {
   max-width: 960px;
-  margin: 0 auto;
 }
 
 /* ПК */
 @media (min-width: 768px) {
   body {
     width: 100%;
-    margin: 0;
+    /* margin: 0; */
     background-color: #DAD7D7;
     text-decoration: none;
   }
@@ -150,8 +132,8 @@ main {
 
   .content {
     max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
+    /* margin: 0 auto; */
+    /* padding: 20px;  */
   }
 
   /*  шапка2 */
@@ -162,7 +144,7 @@ main {
 
   .header-content {
     max-width: 960px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -182,7 +164,7 @@ main {
   .logo img {
     height: 40px;
     float: left;
-    margin: 0;
+    /* margin: 0; */
     position: absolute;
   }
 
@@ -206,15 +188,15 @@ main {
   /* ссылки2 */
   .main-menu ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     display: flex;
     flex-direction: row;
   }
 
-  .main-menu li {
+  /* .main-menu li {
     margin-left: 20px;
-  }
+  } */
 
   .main-menu a {
     font-size: 20px;
@@ -235,7 +217,7 @@ main {
 
   .data-table th,
   .data-table td {
-    padding: 10px;
+    /* padding: 10px; */
     text-align: left;
     border: solid 1px #333;
   }
@@ -257,12 +239,12 @@ main {
     width: 100%;
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     text-align: center;
   }
 
   .footer-content {
     max-width: 960px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 }
