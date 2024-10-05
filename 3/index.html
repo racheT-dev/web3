@@ -4,33 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <title>2 Пара</title>
-    <link rel="stylesheet" href="indcss.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-
-<body style="background-color:rgb(255, 255, 255)">
-    <header class="header">
-        <div class="header-content">
-        <div class="head">
-            <div class="logo"></div>
-            <div class="site-link">
-                <a href="https://github.com/racheT-dev"> rachet's GitHub</a>
+<body class="m-0" style="background-color:rgb(255, 255, 255)">
+    <header class="header p-2 ">
+        <div class="header-content m-0 m-auto ">
+            <div class="head">
+                <div class="logo ms-1, m-0"></div>
+                <div class="site-link">
+                    <a href="https://github.com/racheT-dev"> rachet's GitHub</a>
+                </div>
             </div>
-        </div>
-            <nav class="main-menu">
-                <ul>
-                    <li><a href="secindex.html">Раз</a></li>
-                    <li><a href="./about/third.html">Два</a></li>
-                    <li><a href="./about/lower/fourth.html">Три</a></li>
+            <nav class="main-menu m-0 col-0">
+                <ul class="m-0 p-0">
+                    <li class="ms-4"><a href="secindex.html">Раз</a></li>
+                    <li class="ms-4"><a href="./about/third.html">Два</a></li>
+                    <li class="ms-4"><a href="./about/lower/fourth.html">Три</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <ul>
-            <div class="content">
+        <ul >
+            <div class="content m-auto">
                 <li>
                     <a href="http://kubsu.ru">Аблосютный КУБГУ</a>
                 </li>
@@ -120,14 +121,14 @@
             </div>
         </ul>
 
-        <div class="content">
-            <table class="data-table">
+        <div class="content p-3 mx-auto">
+            <table class="data-table p-1">
                 <thead>
                     <tr>
-                        <th>Название</th>
-                        <th>Описание услуги</th>
-                        <th>Сроки/дней</th>
-                        <th>Цена/рублей</th>
+                        <th class="p-3">Название</th>
+                        <th class="p-3">Описание услуги</th>
+                        <th class="p-3">Сроки/дней</th>
+                        <th class="p-3"> Цена/рублей</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -172,7 +173,7 @@
         </div>
     </main>
 
-    <div class="form">
+    <div class="form m-auto p-4">
         <h3>Форма</h3>
         <form>
             <label for="FIO">ФИО</label><br>
@@ -219,10 +220,14 @@
         </form>
     </div>
 
-    <footer class="footer">
-        <div class="footer-content">
+    <footer class="footer p-4 p-1">
+        <div class="footer-contentm m-0 auto">
             <p>&copy; С нескрываемым рвением: Аракелов Эдуард</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
