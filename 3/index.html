@@ -29,8 +29,30 @@
         </div>
     </header>
 
+    <div class="content m-auto">
+        <h1>Калькулятор стоимости заказа</h1>
+        <div id="order-items">
+            <div class="order-item">
+                <label for="product-0">Товар:</label>
+                <select id="product-0">
+                    <option value="100">Товар 1 - 100p</option>
+                    <option value="200">Товар 2 - 200p</option>
+                    <option value="300">Товар 3 - 300p</option>
+                </select>
+                <label for="quantity-0">Количество:</label>
+                <input type="number" id="quantity-0" min="1" value="1">
+            </div>
+        </div>
+        <button onclick="addOrderItem()">Добавить товар</button>
+        <button onclick="calculateOrder()">Посчитать стоимость</button>
+        <p id="result"></p>
+    
+        <script src="script.js"></script>
+    </div>
+    
     <main>
-        <ul >
+        <button class="btn btn-primary mx-auto " type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Свернуть: </button>
+        <ul class="collapse" id="collapseExample">
             <div class="content m-auto">
                 <li>
                     <a href="http://kubsu.ru">Аблосютный КУБГУ</a>
@@ -225,9 +247,9 @@
             <p>&copy; С нескрываемым рвением: Аракелов Эдуард</p>
         </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
